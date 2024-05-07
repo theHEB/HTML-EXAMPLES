@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who Are You?</title>
+  </head>
+  <body style="background-color: rgb(255, 246, 216)">
+    <header>
+      <h1
+        style="
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 75px;
+        "
+      >
+        Who Are You?
+      </h1>
+      <hr />
+    </header>
+    <table width="100%" cellspacing="10px">
+      <thead></thead>
+      <tbody
+        style="text-align: center; font-family: cursive; color: rgb(65, 31, 6)"
+      >
+        <tr>
+          <td>
+            <label for="name">What is Your Name?</label>
+          </td>
+          <td>
+            <input type="text" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="surname">What is Your Surame?</label>
+          </td>
+          <td>
+            <input type="text" id="surname" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mail">What is Your Email?</label>
+          </td>
+          <td>
+            <input type="email" id="mail" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pword">What is Your Password?</label>
+          </td>
+          <td>
+            <input type="password" id="pword" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">Where are You From?</label>
+          </td>
+          <td>
+            <select id="city">
+              <option value="02">Adıyaman</option>
+              <option value="07">Antalya</option>
+              <option value="34">Istanbul</option>
+              <option value="35">Isparta</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>What is Your Gender?</p>
+          </td>
+          <td>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><p>What are your abilities?</p></td>
+          <td>
+            <input type="checkbox" id="a" />
+            <label for="a">HTML</label>
+            <input type="checkbox" id="b" />
+            <label for="b">CSS</label>
+            <input type="checkbox" id="c" />
+            <label for="c">JavaScript</label>
+            <input type="checkbox" id="d" />
+            <label for="d">C#</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Submit</button
+            ><button type="reset">Reset</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
